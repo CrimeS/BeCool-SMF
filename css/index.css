@@ -3618,3 +3618,36 @@ span.hidelink
 		border: none;
 	}
 }
+
+/* ------------ CUSTOM CSS ------------ */
+.menu_bg
+{
+	width: 100%;
+	height: 54px;
+	background: #f6e955;
+	border-radius: 4px;	
+}
+.menu_bg_margin
+{
+	margin: 0 auto;
+	height: 54px;
+}
+.menu_bg_content
+{
+	display: table;
+	padding: 0 17px;
+	width: 98%;
+	height: 54px;
+}
+.menu_bg_center
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+.community_name
+{
+	margin-top: 10px;
+	font-size: 18px;
+	padding-bottom: 3%;
+	padding-left: 7%;
+}
