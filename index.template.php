@@ -173,16 +173,22 @@ function template_body_above()
 	echo !empty($settings['forum_width']) ? '
 <div id="wrapper" style="width: ' . $settings['forum_width'] . '">' : '', '
 	
-	<div class="community_name">		
-			<img src="', $context['header_logo_url_html_safe'], '" alt="', $context['forum_name_html_safe'], '" title="', $context['forum_name_html_safe'], '" />', empty($settings['site_slogan']) ? '' : '
-			<div id="siteslogan">' . $settings['site_slogan'] . '</div>', '	
-		</div>
+	<div class="community_name">';		
+		
+	if (empty($context['header_logo_url_html_safe']))
+		echo '<a href="', $scripturl ,'"><img src="' . $settings['images_url']  . '/smflogo.png" alt="' . $context['forum_name'] . '" /></a>';
+	else
+		echo '
+		<a href="', $scripturl, '"><img src="' . $context['header_logo_url_html_safe'] . '" alt="' . $context['forum_name'] . '" />', '</a>';
+		
+	echo '
+	</div>
 	
 	<div class="menu_bg">
 		<div class="menu_bg_margin">
 			<div class="menu_bg_content">
 				<div class="menu_bg_center">
-					
+				
 					', template_menu(), '
 					
 				</div>
