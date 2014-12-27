@@ -789,8 +789,9 @@ h4.catbg a.toggle img
 }
 h4.catbg, h4.catbg2 , h3.catbg , h3.catbg2 , .table_list tbody.header td.catbg
 {
-	background: url(../images/theme/main_block.png) no-repeat 100% -160px;
+	background: #428bca;
 	padding-right: 9px;
+	border-radius: 3px;
 }
 h4.titlebg, h3.titlebg
 {
@@ -804,11 +805,12 @@ h4.titlebg img.icon
 }
 div.cat_bar
 {
-	background: #99abbf url(../images/theme/main_block.png) no-repeat 0 -160px;
+	background: #428bca;
 	padding-left: 9px;
 	height: 31px;
 	overflow: hidden;
 	margin-bottom: 1px;
+	border-radius: 3px;
 }
 div.title_bar
 {
