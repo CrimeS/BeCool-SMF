@@ -1335,24 +1335,20 @@ ul#navigation li
 /* the framing graphics */
 #header
 {
-	background: url(../images/theme/main_block.png) #fefefe no-repeat 0 -480px;
 	padding-left: 20px;
 }
 #header div.frame
 {
-	background: url(../images/theme/main_block.png) no-repeat 100% -480px;
 	display: block;
 	padding: 5px 20px 1em 0;
 }
 /* the content section */
 #content_section
 {
-	background: #FFFFFF url(../images/theme/frame_repeat.png) repeat-y top left;
 	padding-left: 20px;
 }
 #content_section div.frame
 {
-	background: url(../images/theme/frame_repeat.png) repeat-y top right;
 	display: block;
 	padding: 0 20px 0 0;
 }
