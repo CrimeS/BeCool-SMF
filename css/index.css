@@ -836,15 +836,16 @@ div.roundframe div.cat_bar h3.catbg
 }
 div.title_barIC
 {
-	background: #dadfe6 url(../images/theme/main_block.png) no-repeat 0 -120px;
+	background: #428bca;
 	padding-left: 9px;
-	height: 31px;
+	height: 41px;
 	overflow: hidden;
 	margin-bottom: 1px;
+	border-radius: 3px;
 }
 div.title_barIC h4.titlebg
 {
-	background: url(../images/theme/main_block.png) no-repeat 100% -120px;
+	background: #428bca;
 }
 #upshrinkHeaderIC p.pminfo
 {
@@ -1119,14 +1120,14 @@ span.lowerframe span
 .dropmenu a
 {
 	display: block;
-	color: #000;
+	color: #777;
 	text-decoration: none;
 }
 .dropmenu a span
 {
 	display: block;
 	padding: 0 0 0 5px;
-	font-size: 0.9em;
+	font-size: 15px;
 }
 /* the background's first level only */
 .dropmenu li a.firstlevel
@@ -1181,25 +1182,21 @@ span.lowerframe span
 /* the active button */
 .dropmenu li a.active
 {
-	background: url(../images/theme/menu_gfx.png) no-repeat 100% 0;
-	color: #fff;
+	color: #777;
 	font-weight: bold;
 }
 .dropmenu li a.active span.firstlevel
 {
-	background: url(../images/theme/menu_gfx.png) no-repeat 0 0;
 }
 /* the hover effects */
 .dropmenu li a.firstlevel:hover, .dropmenu li:hover a.firstlevel
 {
-	background: url(../images/theme/menu_gfx.png) no-repeat 100% -30px;
-	color: #fff;
+	color: #777;
 	cursor: pointer;
 	text-decoration: none;
 }
 .dropmenu li a.firstlevel:hover span.firstlevel, .dropmenu li:hover a.firstlevel span.firstlevel
 {
-	background: url(../images/theme/menu_gfx.png) no-repeat 0 -30px;
 }
 /* the hover effects on level2 and 3 */
 .dropmenu li li a:hover, .dropmenu li li:hover>a
