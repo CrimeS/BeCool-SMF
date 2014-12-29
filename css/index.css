@@ -36,7 +36,7 @@ body
 	background: #fff;
 	font: 90%/130% Helvetica, Arial, "Nimbus Sans L", sans-serif;
 	margin: 0 auto;
-	padding: 15px 0;
+	padding: 30px 0;
 }
 
 /* Help popups require a different styling of the body element. */
@@ -1571,7 +1571,7 @@ table.table_list tbody.content td.icon
 {
 	font-weight: bold;
 	font-size: 110%;
-	color: #d97b33;
+	color: #43a8da;
 }
 .table_list tbody.content td.children
 {
