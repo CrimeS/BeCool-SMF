@@ -1475,7 +1475,7 @@ div#upper_section div.news form
 	margin: 0;
 	font-size: 0.9em;
 	padding: 1em 0 0.5em 0;
-	border-top: 1px solid #ccc;
+	border-top: 0px solid #ccc;
 	overflow: hidden;
 	list-style: none;
 	clear: both;
@@ -1541,7 +1541,7 @@ table.table_list
 table.table_list p
 {
 	padding: 0;
-	margin: 0;
+	margin: 5px 0 5px 0;
 }
 table.table_list td, table.table_list th
 {
@@ -2692,7 +2692,7 @@ tr.titlebg td
 
 tr.windowbg td, tr.windowbg2 td, tr.approvebg td, tr.highlight2 td
 {
-	padding: 0.3em 0.7em;
+	padding: 10px 0.7em;
 }
 #credits p
 {
