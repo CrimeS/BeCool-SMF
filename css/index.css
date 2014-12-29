@@ -770,11 +770,11 @@ h3.catbg2 a:hover
 }
 h3.titlebg a, h3.titlebg, h4.titlebg, h4.titlebg a
 {
-	color: #222;
+	color: #fff;
 }
 h3.titlebg a:hover, h4.titlebg a:hover
 {
-	color: #53616f;
+	color: #fff;
 	text-decoration: none;
 }
 h3.catbg img.icon, h4.titlebg img.icon
@@ -795,7 +795,7 @@ h4.catbg, h4.catbg2 , h3.catbg , h3.catbg2 , .table_list tbody.header td.catbg
 }
 h4.titlebg, h3.titlebg
 {
-	background: url(../images/theme/main_block.png) no-repeat 100% -200px;
+	background: #428bca;
 	padding-right: 9px;
 }
 h4.titlebg img.icon
@@ -814,11 +814,12 @@ div.cat_bar
 }
 div.title_bar
 {
-	background: #e3e9ef url(../images/theme/main_block.png) no-repeat 0 -200px;
+	background: #428bca;
 	padding-left: 9px;
 	height: 41px;
 	overflow: hidden;
 	margin-bottom: 1px;
+	border-radius: 3px;
 }
 
 /* rounded bars needs a different background here */
