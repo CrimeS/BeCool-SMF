@@ -1492,7 +1492,6 @@ div#upper_section div.news form
 #footer_section
 {
 	text-align: center;
-	background: url(../images/theme/main_block.png) no-repeat 0 -820px;
 	padding-left: 20px;
 }
 #footer_section span.smalltext
@@ -1501,7 +1500,6 @@ div#upper_section div.news form
 }
 #footer_section div.frame
 {
-	background: url(../images/theme/main_block.png) no-repeat 100% -820px;
 	display: block;
 	padding: 60px 0 0 0;
 }
