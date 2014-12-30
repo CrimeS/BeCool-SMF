@@ -1207,9 +1207,8 @@ span.lowerframe span
 /* the hover effects on level2 and 3 */
 .dropmenu li li a:hover, .dropmenu li li:hover>a
 {
-	background: #d4dbe4;
-	color: #000;
-	text-decoration: none;
+	color: #428bca;
+	font-weight: bold;
 }
 .dropmenu li:hover ul ul, .dropmenu li:hover ul ul ul
 {
