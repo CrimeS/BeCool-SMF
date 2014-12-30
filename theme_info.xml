@@ -6,9 +6,9 @@
 	<!-- Theme name, used purely for aesthetics. -->
 	<name>BeCool</name>
 	<!-- Author: your email address or contact information. The name attribute is optional. -->
-	<author name="Simple Machines">info@simplemachines.org</author>
+	<author name="CrimeS">ch.marcinx@gmail.com</author>
 	<!-- Website... where to get updates and more information. -->
-	<website>http://www.simplemachines.org/</website>
+	<website>http://www.studiocrimes.org/</website>
 	<!-- Template layers to use, defaults to "html,body". -->
 	<layers>html,body</layers>
 	<!-- Templates to load on startup. Default is "index". -->
